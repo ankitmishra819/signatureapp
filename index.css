@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+}
+.main{
+    width:750px;
+    position: relative;
+    top:90%;
+    left:50%;
+    transform:translate(-50%,10%)
+    
+}
+h4{
+    font-size:30px;
+    color:goldenrod;
+    margin-bottom:50px;
+    text-align: center;
+}
+.box1,.box3{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    margin:20px 0 20px 0;
+    
+}
+.box1 p{
+    text-align: center;
+    font-size:15px;
+    margin-bottom:5px;
+}
+
+ .box1 input,select{
+    box-sizing: border-box;
+    width:180px;
+    padding:7px;
+}
+
+
+.box3 button{
+   color:white;
+   width:30%;
+}
+
+
